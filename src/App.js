@@ -1,10 +1,16 @@
-import './App.css'
-import React from 'react'
-import Main from './Main'
+import {BrowserRouter as Router} from 'react-router-dom'
+import Routes from './Routes/Routes'
+import {Header} from './components/organisms'
+import './styles/App.scss'
 
 const App = () => {
   return (
-    <Main/>
+    <>
+      <Header />
+      <Router>
+        <Routes />
+      </Router>
+    </>
   )
 }
 

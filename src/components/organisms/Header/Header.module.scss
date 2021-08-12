@@ -1,0 +1,28 @@
+.header {
+  height: 50px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .links {
+    display: flex;
+    gap: 12px;
+  }
+  .account {
+    display: flex;
+    gap: 12px;
+    .login {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}
+.fakeDiv {
+  height: 50px;
+}

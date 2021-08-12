@@ -1,7 +1,7 @@
-import './App.css'
-import React, {useEffect, useState} from 'react'
-import web3 from './web3'
-import lottery from './lottery'
+import {useEffect, useState} from 'react'
+import web3 from '../../web3'
+import lottery from '../../lottery'
+import {withRouter} from 'react-router'
 
 const Main = () => {
   const [manager, setManager] = useState()
@@ -42,11 +42,11 @@ const Main = () => {
   }
 
   async function pickWinner() {
-		setMessage('picking winner...')
+    setMessage('picking winner...')
 
     await lottery.methods.pickWinner().send({from: myAccount})
 
-		setMessage('winner has been picked!')
+    setMessage('winner has been picked!')
   }
 
   return (
@@ -76,4 +76,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default withRouter(Main)
