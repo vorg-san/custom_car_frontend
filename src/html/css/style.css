@@ -1,0 +1,40 @@
+
+/** GLOBALS **/
+
+h1, h2 {
+  font-family: 'Racing Sans One', cursive;
+}
+p { 
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+  background-color: #BD162C;
+}
+
+.menuItem {
+  color: #fff !important;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+/** INDEX **/
+.metaIcon {
+  width: 7%;
+  cursor: pointer;
+}
+
+.cta {
+  background-color: #BD162C;
+  color: #fff;
+  font-family: 'Racing Sans One', cursive;
+  font-size: 2em;
+  border-radius: 15px;
+}
+
