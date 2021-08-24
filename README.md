@@ -6,5 +6,7 @@ In the project directory, you can run: `npm start`
 
 ## Deploy
 
-`npm install -g serve`
-`serve -s build`
+npm install -g serve
+npm i 
+npm run build
+serve -s build
