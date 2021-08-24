@@ -7,5 +7,5 @@ export interface SpriteProps {
     onClick?: () => void;
     style?: CSSProperties;
     className?: string;
-    elementId?: HTMLAttributes<string>['id'];
+    elementId?: HTMLAttributes<string>['id']
 }

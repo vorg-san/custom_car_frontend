@@ -5,14 +5,14 @@ const Sprite = (props: SpriteProps) => {
   return (
     <svg
       viewBox={`0 0 ${props.width} ${props.height}`}
-      width={props.width}
-      height={props.height}
+      width={`${props.width}px`}
+      height={`${props.height}px`}
       style={{...props.style}}
       onClick={props.onClick}
-      className={`${props.className || ''}`}
+      className={`${props.className}`}
       id={props.elementId}
     >
-      <use href={`${sprite}#${props.id}`}></use>
+      <use href={`${sprite}#${props.id}`} />
     </svg>
   )
 }
