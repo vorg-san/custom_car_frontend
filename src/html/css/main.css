@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v147_45 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v147_136 {
+  width: 330px;
+  height: 145px;
+  background: url("../images/v147_136.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 78px;
+  left: 565px;
+  overflow: hidden;
+}
+.v179_232 {
+  width: 100%;
+  color: rgba(62,62,62,1);
+  position: absolute;
+  top: 617px;
+  left: 157px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.v147_139 {
+  width: 793px;
+  height: 266px;
+  background: url("../images/v147_139.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 260px;
+  left: 316px;
+  overflow: hidden;
+}
+.v147_143 {
+  width: 196px;
+  height: 59px;
+  background: url("../images/v147_143.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 924px;
+  left: 621px;
+  overflow: hidden;
+}
+.v147_140 {
+  width: 196px;
+  height: 59px;
+  background: rgba(189,22,44,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  overflow: hidden;
+}
+.v147_141 {
+  width: 141px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 10px;
+  left: 17px;
+  font-family: Racing Sans One;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.v147_142 {
+  width: 28px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 159px;
+  font-family: Racing Sans One;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.name {
+  color: #fff;
+}
+.v407_499 {
+  width: 945px;
+  height: 196px;
+  background: url("../images/v407_499.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 659px;
+  left: 258px;
+  overflow: hidden;
+}
