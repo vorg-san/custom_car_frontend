@@ -10,6 +10,7 @@ p {
   color: #3F3F3F;
 }
 
+
 .menu {
   background-color: #BD162C;
 }
@@ -24,6 +25,14 @@ p {
 .navbar-light .navbar-toggler {
   color: rgb(255, 255, 255);
   border-color: rgb(255, 255, 255);
+}
+
+.breadcrumb {
+  background: transparent;
+}
+
+.breadcrumb a {
+  color: #BD162C;
 }
 
 
@@ -53,5 +62,27 @@ p {
   background-color: #8f1727;
   color: #f5f5f5;
   transition: 0.3s;
+}
+
+/** ROUND 2 **/
+
+.wrapple-car-stats {
+  font-family: 'Racing Sans One', cursive;
+  font-size: 1.5em;
+  color: #3F3F3F;
+}
+
+.wrapple-car-stats .progress-bar {
+  background-color: #BD162C;
+}
+
+.stats-number {
+  margin-top: -10px;
+  padding-left: 20px;
+}
+
+a.card-class-link  {
+  color: #BD162C;
+  text-decoration: underline;
 }
 
