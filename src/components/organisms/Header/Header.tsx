@@ -1,6 +1,6 @@
 import {Anchor, Button, Sprite} from '../../atoms'
 import classes from './Header.module.scss'
-import web3 from '../../../web3'
+// import web3 from '../../../web3'
 import {useState} from 'react'
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
         </div>
         <div className={`${classes.account}`}>
           <Sprite id='metamask-icon' width={30} height={30} />
-          <Button height={30} onClick={() => console.log(web3)}>
+          <Button height={30} onClick={() => console.log('web3')}>
             Connect
           </Button>
         </div>
@@ -48,7 +48,7 @@ const Header = () => {
             <Anchor tag={'sm'} color={'white'}>
               Style
             </Anchor>
-            <Button height={30} onClick={() => console.log(web3)}>
+            <Button height={30} onClick={() => console.log('web3')}>
               Connect
             </Button>
           </div>
