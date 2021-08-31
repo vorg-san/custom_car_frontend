@@ -1,6 +1,6 @@
 import {withRouter} from 'react-router'
 import {Statistics, VotingRules} from './Sections'
-import classes from './Home.module.scss'
+import classes from './Vote.module.scss'
 import {Button} from '../../components/atoms'
 
 const Home = () => {

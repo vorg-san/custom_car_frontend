@@ -1,5 +1,5 @@
 import {Title, Label} from '../../../../components/atoms'
-import classes from '../../Home.module.scss'
+import classes from '../../Vote.module.scss'
 
 const VotingRules = () => {
   return (
